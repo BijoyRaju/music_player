@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 class SongPage extends StatelessWidget {
   const SongPage({super.key});
 
+  
   @override
   Widget build(BuildContext context) {
     return Consumer<PlaylistController>(
